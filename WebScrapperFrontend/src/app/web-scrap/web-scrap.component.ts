@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { FormBuilder, Validators, FormGroup, FormControl } from '@angular/forms';
 import { ScrapService } from '../scrap.service';
-import jsPDF = require('jspdf');
+import * as jsPDF from 'jspdf'
 
 
 @Component({
